@@ -1,0 +1,10 @@
+{
+    "Search": [
+      { "Title": "Avatar", "Year": "2009", "imdbID": "tt0499549", "Type": "movie", "Poster": "N/A", "imdbRating": "7.8" },
+      { "Title": "Avengers: Endgame", "Year": "2019", "imdbID": "tt4154796", "Type": "movie", "Poster": "N/A", "imdbRating": "8.4" },
+      { "Title": "A Beautiful Mind", "Year": "2001", "imdbID": "tt0268978", "Type": "movie", "Poster": "N/A", "imdbRating": "8.2" }
+    ],
+    "totalResults": "3",
+    "Response": "True"
+  }
+  

@@ -6,9 +6,15 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "cy:open": "cypress open",
+    "test:e2e": "start-server-and-test dev http://localhost:5173 'cypress run'",
+    "test:e2e:ui": "start-server-and-test dev http://localhost:5173 'cypress open'"
   },
   "devDependencies": {
+    "@testing-library/cypress": "^10.1.0",
+    "cypress": "^14.5.4",
+    "start-server-and-test": "^2.1.2",
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
   },
