@@ -9,8 +9,10 @@
   <body>
     <div id="app">
       <form id="searchForm">
-        <input type="text" id="searchText" placeholder="Skriv titel här" />
-        <button type="submit" id="search">Sök</button>
+        <input type="text" id="searchText" placeholder="Skriv titel här" data-cy="search-input" />
+
+        <button id="searchBtn" data-cy="search-btn">Sök</button>      
+        <ul id="movie-container" data-cy="result-list"></ul>
       </form>
       <div id="movie-container"></div>
     </div>
